@@ -1,0 +1,17 @@
+@import '../universals' ;
+@import '../variables';
+@import '../mixings';
+
+body{
+    width: 100vw;
+}
+
+.figure__showError{
+    width: 100%;
+   
+    img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+}

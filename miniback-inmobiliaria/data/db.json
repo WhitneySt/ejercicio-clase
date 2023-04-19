@@ -1,0 +1,122 @@
+{
+  "inmuebles": [
+    {
+      "id": 1,
+      "direccion": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+      "ciudad": "Beverly Hills, CA",
+      "idAgente": 1,
+      "fechaPublicacion": "2023-04-04",
+      "area": "2400 sq ft",
+      "banos": 2,
+      "garaje": 2,
+      "idTipoInmueble": 1,
+      "habitaciones": 3,
+      "tipoTransaccion": {
+        "venta": true,
+        "renta": false
+      },
+      "imagenes":[
+        {
+            "id": 1,
+            "name": "Vista frontal inmueble",
+            "urlImagen": "https://fincaraiz.com.co/blog/wp-content/uploads/2022/08/casas-modernas-1-1920x1130.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Vista lateral inmueble",
+            "urlImagen": "https://fincaraiz.com.co/blog/wp-content/uploads/2022/08/casas-modernas-2-1920x1152.jpg"
+        }
+      ],
+      "estado":{
+        "vendido": "pending",
+        "renta": "N.A."
+      }
+    },
+    {
+      "id": 2,
+      "direccion": "272 S Lusiana Dr, Malibú, CA 90212, USA",
+      "ciudad": "Malibú, CA",
+      "idAgente": 4,
+      "fechaPublicacion": "2023-04-04",
+      "area": "500 sq ft",
+      "banos": 2,
+      "garaje": 1,
+      "idTipoInmueble": 3,
+      "habitaciones": 2,
+      "tipoTransaccion": {
+        "venta": false,
+        "renta": true
+      },
+      "imagenes": [
+        "https://fincaraiz.com.co/blog/wp-content/uploads/2022/08/casas-modernas-1-1920x1130.jpg",
+        "https://fincaraiz.com.co/blog/wp-content/uploads/2022/08/casas-modernas-2-1920x1152.jpg"
+      ],
+      "estado": {
+        "vendido": "N.A.",
+        "renta": "pending"
+      }
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Hellen Mattis",
+      "rol": "agente",
+      "userName": "Hellen",
+      "password": "1234*"
+    },
+    {
+      "id": 2,
+      "name": "Andrés Parra",
+      "rol": "cliente",
+      "userName": "Andres",
+      "password": "1234*"
+    },
+    {
+      "id": 3,
+      "name": "Gesiel Gimenez",
+      "rol": "cliente",
+      "userName": "Gesiel",
+      "password": "1234*"
+    },
+    {
+      "id": 4,
+      "name": "Angie Moreno",
+      "rol": "agente",
+      "userName": "AngieM",
+      "password": "1234*"
+    }
+  ],
+  "favoritos": [],
+  "transacciones": [],
+  "tiposInmuebles": [
+    {
+      "id": 1,
+      "name": "casa"
+    },
+    {
+      "id": 2,
+      "name": "local comercial"
+    },
+    {
+      "id": 3,
+      "name": "apartamento"
+    },
+    {
+      "id": 4,
+      "name": "casa campestre"
+    },
+    {
+      "id": 5,
+      "name": "aparta estudio"
+    },
+    {
+      "id": 6,
+      "name": "bodega"
+    },
+    {
+      "id": 7,
+      "name": "oficina"
+    }
+  ]
+}
